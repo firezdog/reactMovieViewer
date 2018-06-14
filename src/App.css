@@ -1,0 +1,38 @@
+.titleBar {
+      background-color: black;
+      color: white;
+      display: block;
+      font-size: 24px;
+      padding-left: 20px;
+}
+
+.searchInput {
+  display: block;
+  width: 99%;
+  height: 40px;
+  padding: 0.25%;
+  font-size: 1.5em;
+  padding-left: 16px;
+}
+
+.fas.fa-search {
+  position: absolute;
+  top: 15%;
+  right: 1%;
+  color: green;
+}
+
+.search {
+  display: flex;
+  position: relative;
+}
+
+.movie {
+  margin: 2.5%;
+}
+
+.movie-logo {
+  padding-right: 2%;
+  width: 50px;
+  height: 50px;
+}
