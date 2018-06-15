@@ -3,15 +3,10 @@ import './App.css';
 
 class Movie extends Component {
 
-    constructor(props){
-        super(props);
-        this.state = {movie: this.props.movie};
-    }
-
     render(){
-        var movie = this.state.movie;
+        var movie = this.props.movie;
         return(
-            <div className="movie" key={movie.id}>
+            <div className="movie">
                 <table>
                     <tbody>
                         <tr>
