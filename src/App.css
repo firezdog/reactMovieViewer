@@ -29,15 +29,18 @@
 }
 
 .movie {
-  margin: 2.5%;
+  margin-bottom: 1em;
+  margin-left: 1em;
 }
 
 .movie-logo {
-  padding-right: 5%;
-  width: 50px;
-  height: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
 }
 
 .movie button {
-  margin: 1%;
+  margin: 5px;
+  border-radius: 15px;
 }

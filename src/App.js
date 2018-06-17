@@ -30,7 +30,7 @@ class App extends Component {
         <table className="titleBar">
           <tbody>
             <tr>
-              <td><img src="green_app_icon.svg" alt="green icon"/></td>
+              <td><img width="50" src="green_app_icon.svg" alt="green icon"/></td>
               <td width="8px"></td>
               <td><h1>MoviesDB Search</h1></td>
             </tr>
